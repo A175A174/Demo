@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--指定扫描注解路径-->
+    <context:component-scan base-package="com.demo" annotation-config="true"/>
+
+    <!--开启定时任务-->
+    <!--<task:annotation-driven/>-->
+
+   <!--<bean class="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler">-->
+       <!--<property name="poolSize" value="10"/>-->
+    <!--</bean>-->
+
+    <!--任务执行器配置详细参数说明：-->
+    <!--task:executor/@pool-size：可以指定执行线程池的初始大小、最大大小-->
+    <!--task:executor/@queue-capacity：等待执行的任务队列的容量-->
+    <!--task:executor/@rejection-policy：当等待队列爆了时的策略，分为丢弃、由任务执行器直接运行等方式-->
+    <task:executor id="executor" pool-size="3"/>
+    <!--任务调度器的配置详细参数说明：-->
+    <!--task:scheduler/@pool-size：调度线程池的大小，调度线程在被调度任务完成前不会空闲-->
+    <!--task:scheduled/@cron：cron表达式，注意，若上次任务未完成，即使到了下一次调度时间，任务也不会重复调度-->
+    <task:scheduler id="scheduler" pool-size="3"/>
+    <task:scheduler id="scheduler2" pool-size="3"/>
+
+    <!-- 启用annotation方式 -->
+    <!--<task:annotation-driven scheduler="scheduler" executor="executor" proxy-target-class="true"/>-->
+
+
+    <bean id="task1" class="com.demo.Task1"/>
+    <task:scheduled-tasks scheduler="scheduler">
+        <!-- xml配置定时器，ref是定时器所在类名，method是定时器方法名 -->
+        <task:scheduled ref="task1" method="kk" cron="*/1 * * * * ?" />
+        <task:scheduled ref="task1" method="kk2" cron="*/1 * * * * ?" />
+    </task:scheduled-tasks>
+    <task:scheduled-tasks scheduler="scheduler2">
+        <!-- xml配置定时器，ref是定时器所在类名，method是定时器方法名 -->
+        <task:scheduled ref="task1" method="kk" cron="*/1 * * * * ?" />
+        <task:scheduled ref="task1" method="kk2" cron="*/1 * * * * ?" />
+    </task:scheduled-tasks>
+
+
+</beans>
