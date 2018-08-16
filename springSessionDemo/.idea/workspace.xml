@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springSessionDemo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e24e04ee-9c5b-46ca-8807-d7f123357620" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="732348244">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JedisClientConfigurationBuilder" value="1" />
+          <entry key="class" value="30" />
+          <entry key="html" value="1" />
+          <entry key="java" value="45" />
+          <entry key="xml" value="8" />
+          <entry key="xsd" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="30" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="45" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="96" />
+          <entry key="xml" value="626" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="96" />
+          <entry key="XML" value="626" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springSessionDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RedisStandaloneConfiguration</find>
+      <find>JedisPoolConfig</find>
+      <find>JedisClientConfiguration</find>
+      <find>springSessionRepositoryFilter</find>
+      <find>RedisOperationsSessionRepository</find>
+      <find>JedisConnectionFactory</find>
+      <find>RedisClusterConfiguration</find>
+      <find>public JedisConnectionFactory(RedisClusterConfiguration clusterConfig) {</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\XueXi\maven-3.5.4\repository" />
+        <option name="mavenHome" value="D:/XueXi/maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\XueXi\maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springSessionDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springSessionDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springSessionDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springSessionDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="885" />
+    <option name="y" value="55" />
+    <option name="width" value="1672" />
+    <option name="height" value="939" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springSessionDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="RedisClusterConfiguration&#9;FILE&#9;jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisClusterConfiguration.java&#10;springSessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration#springSessionRepositoryFilter&#10;SpringSessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration#springSessionRepositoryFilter&#10;RedisConnectionFactory&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.RedisConnectionFactory&#10;RedisStandaloneConfiguration&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.RedisStandaloneConfiguration&#10;JedisConnFa&#9;FILE&#9;jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class&#10;JedisConne&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.jedis.JedisConnectionFactory&#10;Jedis&#9;FILE&#9;jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.class&#10;JedisCon&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.jedis.JedisConnection" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534363259419" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\Demo\springSessionDemo\src\main\java" />
+      <recent name="C:\IdeaProjects\Demo\springSessionDemo\src\main\webapp" />
+      <recent name="C:\IdeaProjects\Demo\springSessionDemo\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springSessionDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springSessionDemo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56589" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springSessionDemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e24e04ee-9c5b-46ca-8807-d7f123357620" name="Default Changelist" comment="" />
+      <created>1534331237425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534331237425</updated>
+      <workItem from="1534331241935" duration="22622000" />
+      <workItem from="1534412905426" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22682000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.20575693" />
+      <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.17537314" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5011136" side_tool="true" weight="0.17537314" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5011136" side_tool="true" weight="0.17537314" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.74498886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32962137" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.73051226" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.32962137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32962137" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.1716418" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisStandaloneConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-670">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/org.springframework.data.redis.connection.jedis.JedisClientConfiguration.JedisClientConfigurationBuilder">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.data.redis.connection.jedis.JedisClientConfiguration.JedisClientConfigurationBuilder</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.data.redis.connection.jedis.JedisClientConfiguration.JedisClientConfigurationBuilder</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisClientConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/DefaultJedisClientConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/session/spring-session-data-redis/2.0.5.RELEASE/spring-session-data-redis-2.0.5.RELEASE.jar!/org/springframework/session/data/redis/RedisOperationsSessionRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/session/spring-session-core/2.0.5.RELEASE/spring-session-core-2.0.5.RELEASE.jar!/org/springframework/session/web/http/DefaultCookieSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/session/spring-session-data-redis/2.0.5.RELEASE/spring-session-data-redis-2.0.5.RELEASE.jar!/org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/session/spring-session-data-redis/2.0.5.RELEASE/spring-session-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/session/spring-session-core/2.0.5.RELEASE/spring-session-core-2.0.5.RELEASE.jar!/org/springframework/session/config/annotation/web/http/SpringHttpSessionConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="835" column="4" selection-start-line="835" selection-start-column="4" selection-end-line="835" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisClusterConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="574" column="19" lean-forward="true" selection-start-line="574" selection-start-column="19" selection-end-line="574" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/XueXi/maven-3.5.4/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="119" column="60" selection-start-line="119" selection-start-column="60" selection-end-line="119" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

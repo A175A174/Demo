@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--注解驱动-->
+    <mvc:annotation-driven/>
+
+    <!--包扫描-->
+    <context:component-scan base-package="controller" annotation-config="true"/>
+
+    <!--过滤静态资源-->
+    <mvc:default-servlet-handler/>
+
+
+    <!--springSessionRepositoryFilter在这里被加入容器-->
+    <bean class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration">
+        <!--存入Redis数据的有效时间，单位秒-->
+        <property name="maxInactiveIntervalInSeconds" value="60" />
+    </bean>
+
+    <!--定制Cookie-->
+    <bean id="defaultCookieSerializer" class="org.springframework.session.web.http.DefaultCookieSerializer">
+        <property name="cookieName" value="koioik"/>
+        <!--域不能随意设置，要符合自己的访问域名-->
+        <property name="domainName" value="localhost"/>
+        <property name="useHttpOnlyCookie" value="true"/>
+        <property name="cookiePath" value="/"/>
+        <property name="cookieMaxAge" value="60"/>
+    </bean>
+
+    <!-- Redis Standalone 单节点配置 -->
+    <bean id="redisStandaloneConfiguration" class="org.springframework.data.redis.connection.RedisStandaloneConfiguration">
+        <property name="hostName" value="192.168.8.10"/>
+        <property name="port" value="6379"/>
+        <property name="database" value="0"/>
+        <property name="password">
+            <bean class="org.springframework.data.redis.connection.RedisPassword">
+                <constructor-arg index="0" value=""/>
+            </bean>
+        </property>
+    </bean>
+
+    <!-- Redis Cluster 多节点配置 -->
+    <bean id="clusterConfiguration" class="org.springframework.data.redis.connection.RedisClusterConfiguration">
+        <constructor-arg>
+            <list>
+                <value>192.168.8.10:6379</value>
+                <value>192.168.8.10:6380</value>
+                <!--<value>192.168.8.10:6381</value>-->
+                <!--<value>192.168.8.10:6382</value>-->
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <!--连接耗尽时是否阻塞, false报异常,ture阻塞直到超时, 默认true-->
+        <property name="blockWhenExhausted" value="true"/>
+        <!--是否启用pool的jmx管理功能, 默认true-->
+        <property name="jmxEnabled" value="true"/>
+        <property name="jmxNamePrefix" value="pool"/>
+        <!--jedis调用returnObject方法时，是否进行有效检查-->
+        <property name="testOnReturn" value="true"/>
+        <!--是否启用后进先出, 默认true-->
+        <property name="lifo" value="true"/>
+        <!--最大空闲连接数, 默认8个-->
+        <property name="maxIdle" value="20" />
+        <!--最小空闲连接数, 默认0-->
+        <property name="minIdle" value="0" />
+        <!--最大连接数, 默认8个-->
+        <property name="maxTotal" value="20" />
+        <!--获取连接时的最大等待毫秒数(如果设置为阻塞时BlockWhenExhausted),如果超时就抛异常, 小于零:阻塞不确定的时间,  默认-1-->
+        <property name="maxWaitMillis" value="-1"/>
+        <!--逐出连接的最小空闲时间 默认1800000毫秒(30分钟)-->
+        <property name="minEvictableIdleTimeMillis" value="1800000"/>
+        <!--每次逐出检查时 逐出的最大数目 如果为负数就是 : 1/abs(n), 默认3-->
+        <property name="numTestsPerEvictionRun" value="3"/>
+        <!--对象空闲多久后逐出, 当空闲时间>该值 且 空闲连接>最大空闲数 时直接逐出,不再根据MinEvictableIdleTimeMillis判断  (默认逐出策略)-->
+        <property name="softMinEvictableIdleTimeMillis" value="1800000"/>
+        <!--在获取连接的时候检查有效性, 默认false-->
+        <property name="testOnBorrow" value="true" />
+        <!--在空闲时检查有效性, 默认false-->
+        <property name="testWhileIdle" value="false"/>
+        <!--逐出扫描的时间间隔(毫秒) 如果为负数,则不运行逐出线程, 默认-1-->
+        <property name="timeBetweenEvictionRunsMillis" value="-1"/>
+    </bean>
+
+    <!-- Redis 连接配置 -->
+    <bean class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <constructor-arg name="poolConfig" ref="jedisPoolConfig"/>
+        <!--<constructor-arg name="standaloneConfig" ref="redisStandaloneConfiguration"/>-->
+        <constructor-arg name="clusterConfig" ref="clusterConfiguration"/>
+    </bean>
+
+    <!--<bean id="clusterRedisNodes1" class="org.springframework.data.redis.connection.RedisNode">-->
+        <!--<constructor-arg value="192.168.8.10" />-->
+        <!--<constructor-arg value="6379" type="int" />-->
+    <!--</bean>-->
+    <!--<bean id="clusterRedisNodes2" class="org.springframework.data.redis.connection.RedisNode">-->
+        <!--<constructor-arg value="192.168.8.10" />-->
+        <!--<constructor-arg value="6380" type="int" />-->
+    <!--</bean>-->
+    <!--<bean id="redisClusterConfiguration" class="org.springframework.data.redis.connection.RedisClusterConfiguration">-->
+        <!--<property name="clusterNodes">-->
+            <!--<set>-->
+                <!--<ref bean="clusterRedisNodes1" />-->
+                <!--<ref bean="clusterRedisNodes2" />-->
+            <!--</set>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--<bean class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">-->
+        <!--<constructor-arg ref="jedisPoolConfig" />-->
+        <!--<constructor-arg ref="redisClusterConfiguration" />-->
+    <!--</bean>-->
+
+</beans>
