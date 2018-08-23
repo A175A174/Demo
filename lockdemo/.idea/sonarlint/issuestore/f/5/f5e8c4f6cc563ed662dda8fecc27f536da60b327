@@ -1,0 +1,17 @@
+
+esquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8ÅÉ¥²Ö,
+Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8™àç±Ö,
+Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ªç±Ö,
+ƒ"squid:ClassVariableVisibilityCheck"NMake is a static final constant or non-public and provide accessors if needed.(×Õ®ï8ÀŠ±Ö,
+Fsquid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®8ÛŒå±Ö,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºó™ûÿÿÿÿ8ÛŒå±Ö,
+dsquid:S1126+"AReplace this if-then-else statement by a single return statement.(ÉÎúüÿÿÿÿÿ8•ê—±Ö,
+osquid:UselessImportCheck"DRemove this unused import 'java.util.concurrent.ThreadPoolExecutor'.(¦ÿöÊ8ÅÉ¥²Ö,
+Fsquid:S1444"(Make this "public static is" field final(×Õ®ï8ÀŠ±Ö,
+zsquid:UselessImportCheck"JRemove this unused import 'java.util.concurrent.ScheduledExecutorService'.(Êßˆÿÿÿÿÿ8ÅÉ¥²Ö,
+_squid:S11266"AReplace this if-then-else statement by a single return statement.(¶±úŠ8Ñº©²Ö,
+Fsquid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®8ÛŒå±Ö,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºó™ûÿÿÿÿ8ÛŒå±Ö,
+ksquid:UselessImportCheck";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8Ó£”²Ö,
